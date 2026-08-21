@@ -1,0 +1,33 @@
+:root{color-scheme:light dark;--primary:#5c2a3d;--accent:#c9a227;--ink:#2b1f24;--paper:#fbf6f2;--band:#f0e2df}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:"Segoe UI","Trebuchet MS",system-ui,sans-serif;color:var(--ink);background:var(--paper);line-height:1.6}
+a{color:var(--primary)}
+header.site{padding:1.1rem 1.25rem;border-bottom:1px solid var(--band);display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.6rem}
+header.site .brand{font-weight:800;text-decoration:none;color:var(--primary);font-size:1.05rem}
+header.site nav a{margin-left:1rem;text-decoration:none;color:var(--ink);font-size:.92rem}
+main{max-width:42rem;margin:0 auto;padding:2rem 1.25rem 3.5rem}
+h1{font-size:1.85rem;line-height:1.25;margin:0 0 .6rem;color:var(--primary)}
+h2{font-size:1.3rem;margin:2.2rem 0 .8rem;color:var(--primary)}
+h3{font-size:1.05rem;margin:1.4rem 0 .5rem}
+p{margin:0 0 1rem}
+ul,ol{margin:0 0 1rem 1.3rem}
+li{margin:0 0 .4rem}
+.lede{font-size:1.08rem;color:#5a4750;margin-bottom:1.6rem}
+.card{background:#fff;border:1px solid var(--band);border-radius:10px;padding:1.1rem 1.25rem;margin:0 0 1.2rem}
+.cta{display:inline-block;background:var(--primary);color:#fff !important;text-decoration:none;font-weight:700;padding:.85rem 1.4rem;border-radius:8px;margin:.6rem 0}
+.cta.secondary{background:transparent;color:var(--primary) !important;border:2px solid var(--primary)}
+.price{font-weight:800;color:var(--accent)}
+footer{max-width:42rem;margin:0 auto;padding:1.5rem 1.25rem 3rem;color:#7a6a70;font-size:.85rem;border-top:1px solid var(--band)}
+footer a{color:#7a6a70}
+.faq dt{font-weight:700;margin-top:1rem}
+.faq dd{margin:.25rem 0 0 0;color:#4a3a40}
+@media (prefers-color-scheme:dark){
+  body{background:#1a1416;color:#f1e9ea}
+  header.site{border-color:#3a2c30}
+  header.site nav a{color:#f1e9ea}
+  .card{background:#241c1f;border-color:#3a2c30}
+  .lede{color:#cdb9bf}
+  footer{border-color:#3a2c30;color:#a5949a}
+  footer a{color:#a5949a}
+  .faq dd{color:#cdb9bf}
+}
