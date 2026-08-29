@@ -32,3 +32,24 @@ footer a{color:#7a6a70}
   .faq dd{color:#cdb9bf}
 }
 .cta.cta-pending{background:#8a7268;opacity:.92}
+
+/* ---- Free printable room pages (/valentines/, /christmas/) — cycle 036 ---- */
+.puzzle{border:2px solid var(--accent);border-radius:10px;padding:1.2rem 1.3rem;margin:1.4rem 0;background:#fff}
+.puzzle h3{margin-top:0;color:var(--primary)}
+.puzzle .tag{display:inline-block;font-size:.72rem;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:800;margin-bottom:.3rem}
+.answer-box{display:inline-block;border:2px solid var(--ink);border-radius:6px;padding:.3rem .9rem;font-weight:800;min-width:2rem;text-align:center;margin-left:.4rem}
+.vault{background:var(--band);border-radius:10px;padding:1.2rem 1.3rem;margin:1.6rem 0}
+.acrostic{font-size:1.05rem;line-height:1.9;margin:.8rem 0 1rem;padding-left:.2rem}
+.cipher{font-size:1.35rem;letter-spacing:.28rem;font-weight:800;text-align:center;margin:.9rem 0}
+.winelist{list-style:none;margin:.8rem 0 1rem;padding:0;columns:2;max-width:20rem}
+.winelist li{margin:0 0 .35rem;font-weight:700;letter-spacing:.06em}
+.key{border-top:2px dashed #999;margin-top:2.5rem;padding-top:1.2rem}
+.key summary{cursor:pointer;font-weight:700;color:var(--primary)}
+@media print{
+  header.site, footer, .no-print, .key{display:none !important}
+  body{background:#fff;color:#000}
+  .puzzle{break-inside:avoid;border-color:#000;background:#fff}
+  .vault{background:#fff;border:2px solid #000}
+  main{max-width:100%;padding:0 .3in}
+}
+@media (prefers-color-scheme:dark){ .puzzle{background:#241c1f} .vault{background:#2c2226} }
