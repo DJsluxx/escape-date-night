@@ -9,6 +9,12 @@ Static site, GitHub Pages from `main`.
   code **8934**. Targets `valentines escape room at home` (cycle 036)
 - `/christmas/` — free, complete printable escape room "The Twelve O'Clock Parcel", 4 puzzles,
   code **2649**. Targets `christmas escape room at home for adults` (cycle 036)
+- `/halloween/` — free, complete printable escape room "The Witching Hour", 4 puzzles,
+  code **7314**. Targets `halloween escape room at home` (cycle 039)
+- `/new-years-eve/` — free, complete printable escape room "The Countdown Vault", 4 puzzles,
+  code **1593**. Targets `new years eve escape room at home` (cycle 039, published ~17 weeks
+  early on purpose — Christmas and Valentine's both got indexed within 4 days of publish, so the
+  goal is to give Google months of runway before the season)
 - `/kit/` — buyer page for the $14 Gumroad kit (FORGE's product, built in parallel this run)
 
 **Why occasion rooms and not more how-to guides (ECHO, cycle 036).** The DIY/how-to surface for
